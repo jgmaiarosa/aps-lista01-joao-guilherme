@@ -1,8 +1,8 @@
 # Análise e Projeto de Sistemas I - Lista 01
-## Dados do aluno
+## Dados dos alunos
 
-- Nome: João Guilherme Maia  
-- RGM: 33635668  
+- Nome: João Guilherme Maia e Marcondes Simão
+- RGM: 33635668 e 
 ---
 ## Sobre esta entrega
 
