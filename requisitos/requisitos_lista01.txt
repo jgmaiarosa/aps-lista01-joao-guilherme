@@ -1,1 +1,149 @@
-here
+LISTA 01 - REQUISITOS FUNCIONAIS E NAO FUNCIONAIS
+
+QUESTAO 01 - CONTA DE LUZ
+REQUISITOS FUNCIONAIS:
+RF1. Permitir cadastrar uma conta de luz mensal.
+RF2. Permitir consultar o histórico de contas cadastradas.
+RF3. Calcular e exibir a média de consumo da conta.
+RF4. Identificar o mês de menor consumo.
+RF5. Identificar o mês de maior consumo.
+RF6. Registrar a data de pagamento da conta.
+REQUISITOS NAO FUNCIONAIS:
+RNF1. Interface simples para uso pessoal.
+RNF2. Precisão decimal para valores monetários e consumo.
+RNF3. Persistência dos dados para consultas mensais.
+RNF4. Baixo tempo de resposta para geração das consultas.
+
+QUESTAO 02 - CLASSE TEXTOSAIDA
+REQUISITOS FUNCIONAIS:
+RF1. Permitir informar o texto a ser exibido.
+RF2. Permitir configurar tamanho da letra.
+RF3. Permitir configurar cor da fonte.
+RF4. Permitir configurar cor do fundo.
+RF5. Permitir escolher o componente de exibição.
+RF6. Exibir o texto formatado conforme a configuração.
+REQUISITOS NAO FUNCIONAIS:
+RNF1. Somente cores previamente definidas devem ser aceitas.
+RNF2. A interface de configuração deve ser intuitiva.
+RNF3. A formatação deve ser aplicada imediatamente após a alteração.
+
+QUESTAO 03 - CLASSE BONECO EM MOVIMENTO
+REQUISITOS FUNCIONAIS:
+RF1. Permitir definir nome do boneco.
+RF2. Permitir armazenar posição horizontal e vertical.
+RF3. Permitir alterar a direção atual.
+RF4. Permitir mover o boneco para cima, baixo, esquerda e direita.
+RF5. Permitir consultar a posição atual.
+REQUISITOS NAO FUNCIONAIS:
+RNF1. Movimentação deve ser imediata.
+RNF2. As direções permitidas devem ser limitadas aos quatro sentidos informados.
+RNF3. A modelagem deve ser simples e reutilizável.
+
+QUESTAO 04 - HORARIO DE REMEDIOS
+REQUISITOS FUNCIONAIS:
+RF1. Permitir cadastrar o remédio, dosagem e duração do tratamento.
+RF2. Permitir informar a quantidade de vezes ao dia.
+RF3. Sugerir horários possíveis de administração.
+RF4. Permitir ao usuário escolher os horários desejados.
+RF5. Calcular automaticamente a data final do tratamento.
+RF6. Gerar planilha diária de horários.
+RF7. Reorganizar os horários do dia em caso de atraso.
+REQUISITOS NAO FUNCIONAIS:
+RNF1. Aplicação deve ser adequada ao uso em smartphone.
+RNF2. Horários devem ser exibidos de forma clara e legível.
+RNF3. Reorganização deve ocorrer rapidamente.
+RNF4. Os dados do tratamento devem permanecer salvos.
+
+QUESTAO 05 - GASTOS DIARIOS
+REQUISITOS FUNCIONAIS:
+RF1. Permitir cadastrar um gasto diário.
+RF2. Permitir classificar o gasto por tipo.
+RF3. Permitir classificar o gasto por forma de pagamento.
+RF4. Listar os gastos de um determinado mês.
+RF5. Totalizar gastos por tipo.
+RF6. Totalizar gastos por forma de pagamento.
+RF7. Emitir relatório mensal consolidado.
+REQUISITOS NAO FUNCIONAIS:
+RNF1. Valores devem usar precisão monetária.
+RNF2. A consulta mensal deve ser simples.
+RNF3. Os filtros por mês devem ter resposta rápida.
+
+QUESTAO 06 - COMANDA ELETRONICA (PDV)
+REQUISITOS FUNCIONAIS:
+RF1. Permitir abrir uma comanda numerada.
+RF2. Permitir registrar produto e quantidade consumida.
+RF3. Permitir listar os itens registrados na comanda.
+RF4. Calcular subtotal por item.
+RF5. Calcular valor total da compra.
+RF6. Finalizar a compra no caixa.
+REQUISITOS NAO FUNCIONAIS:
+RNF1. Baixo tempo de resposta no atendimento do caixa.
+RNF2. Precisão monetária no cálculo dos valores.
+RNF3. Facilidade de uso para atendentes e caixas.
+
+QUESTAO 07 - LISTA DE COMPRAS
+REQUISITOS FUNCIONAIS:
+RF1. Permitir cadastrar produtos da lista mensal.
+RF2. Permitir informar unidade de compra.
+RF3. Permitir registrar quantidade prevista e quantidade efetiva.
+RF4. Permitir atualizar o preço estimado do produto.
+RF5. Calcular subtotal estimado por item.
+RF6. Calcular total estimado da lista.
+RF7. Listar os itens da compra do mês.
+REQUISITOS NAO FUNCIONAIS:
+RNF1. Suporte a quantidades fracionadas.
+RNF2. Precisão decimal em preços e totais.
+RNF3. Interface simples, adequada a uso doméstico.
+
+QUESTAO 08 - COLECAO DE CDS
+REQUISITOS FUNCIONAIS:
+RF1. Permitir cadastrar artista.
+RF2. Permitir cadastrar CD com título e ano.
+RF3. Permitir associar um artista a um CD.
+RF4. Listar CDs cadastrados.
+RF5. Pesquisar CD pelo título.
+REQUISITOS NAO FUNCIONAIS:
+RNF1. Cadastro simples e rápido.
+RNF2. Persistência da coleção para consulta posterior.
+RNF3. Ordenação e pesquisa com baixo tempo de resposta.
+
+QUESTAO 09 - COLECAO DE CDS (VARIACAO A)
+REQUISITOS FUNCIONAIS:
+RF1. Permitir cadastrar CDs com indicador de coletânea e de CD duplo.
+RF2. Permitir associar vários artistas a um CD.
+RF3. Permitir cadastrar músicas/faixas de cada CD.
+RF4. Permitir registrar a duração de cada faixa.
+RF5. Permitir listar CDs de um determinado músico.
+RF6. Permitir consultar em quais CDs está determinada música.
+REQUISITOS NAO FUNCIONAIS:
+RNF1. Suporte a relacionamentos muitos-para-muitos.
+RNF2. Pesquisa textual rápida por músico e música.
+RNF3. Dados devem permanecer consistentes entre CD, faixa e música.
+
+QUESTAO 10 - SALA DE REUNIAO
+REQUISITOS FUNCIONAIS:
+RF1. Permitir cadastrar salas de reunião com capacidade.
+RF2. Permitir cadastrar funcionários com cargo e ramal.
+RF3. Permitir agendar reunião com assunto, data e horário.
+RF4. Permitir associar uma reunião a uma sala e a um funcionário solicitante.
+RF5. Permitir realocar reunião, alterando sala, data e/ou horário.
+RF6. Consultar salas livres por data e faixa de horário.
+RF7. Exibir a agenda diária das salas.
+REQUISITOS NAO FUNCIONAIS:
+RNF1. O sistema deve impedir conflitos de horário.
+RNF2. Consultas de disponibilidade devem ser rápidas.
+RNF3. Interface deve facilitar visualização da agenda por dia.
+RNF4. Persistência dos agendamentos é obrigatória.
+
+QUESTAO 11 - HERANCA
+REQUISITOS FUNCIONAIS:
+RF1. Permitir reutilizar os atributos comuns entre cliente e funcionário.
+RF2. Permitir calcular idade de qualquer pessoa cadastrada.
+RF3. Permitir reajustar salário do funcionário.
+RF4. Permitir promover funcionário para novo cargo.
+RF5. Permitir manter a profissão do cliente.
+REQUISITOS NAO FUNCIONAIS:
+RNF1. Modelagem deve priorizar reutilização e baixo acoplamento.
+RNF2. A hierarquia de herança deve ser clara e consistente.
+RNF3. As subclasses devem especializar apenas o que é específico.
+
