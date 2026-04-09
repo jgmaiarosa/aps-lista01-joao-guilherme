@@ -36,7 +36,6 @@ requisitos/
 └── requisitos_lista01.txt
 
 resolucoes/
-├── lista01_resolvida_e_resumo.md
 ├── questao01_conta_de_luz.md
 ├── questao02_textosaida.md
 ├── questao03_boneco_em_movimento.md
